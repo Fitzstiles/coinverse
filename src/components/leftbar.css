@@ -1,0 +1,25 @@
+.leftside__container {
+    background: var(--second-background);
+    flex: 0.2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home,
+.exchange,
+.wallet,
+.chat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

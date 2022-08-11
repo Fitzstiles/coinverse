@@ -1,0 +1,10 @@
+.body__container {
+    flex: .6;
+    padding: 20px;
+}
+
+@media (max-width:500px) {
+    .body__container {
+        flex: 1;
+    }
+}
