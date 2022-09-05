@@ -1,15 +1,13 @@
-import Body from "./components/Body";
-import Mobilenav from "./components/Mobilenav";
-// import Leftbar from "./components/Leftbar";
-// import Rightbar from "./components/Rightbar";
+import About from "./components/About";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
     <div className="App">
-      {/* <Leftbar /> */}
-      <Body />
-      {/* <Rightbar /> */}
-      <Mobilenav />
+      <Header />
+      <HeroSection />
+      <About />
     </div>
   );
 }

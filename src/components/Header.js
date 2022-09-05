@@ -1,24 +1,36 @@
-import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
+import { useState } from "react";
 import "./header.css";
 const Header = () => {
+  const [isOpen, setIsopen] = useState(false);
   return (
-    <div className="header">
-      <div className="header__left">
-        <p>Welcome back</p>
-        <h6>John Wick</h6>
-      </div>
-      <div className="header__right">
-        <EmailOutlinedIcon />
-        <NotificationsNoneOutlinedIcon />
-        <div className="user__image">
+    <section className="header__container">
+      <div className="logo">
+        <a href="/">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXJ5MygTLp9djg2JFzViPzoMU5p_5obekERQ&usqp=CAU"
+            src="https://cypto-currency.vercel.app/static/media/logo.e44a93b92960b7a7a870e08a3080d60e.svg"
             alt=""
           />
+        </a>
+      </div>
+      <div className={`header__links ${isOpen && "open"}`}>
+        <a href="/">Products</a>
+        <a href="/">Features</a>
+        <a href="/">About</a>
+        <a href="/">Contact</a>
+        <div className="nexted__links">
+          <a href="/">Login |</a>
+          <a href="/" className="register">
+            Register
+          </a>
         </div>
       </div>
-    </div>
+      <div
+        className={`hamburger__menu ${isOpen && "open"}`}
+        onClick={() => setIsopen(!isOpen)}
+      >
+        <span className="bar"></span>
+      </div>
+    </section>
   );
 };
 
