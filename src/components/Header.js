@@ -12,7 +12,7 @@ const Header = () => {
           />
         </a>
       </div>
-      <div className={`header__links ${isOpen && "open"}`}>
+      <section className={`header__links ${isOpen && "open"}`}>
         <a href="/">Products</a>
         <a href="/">Features</a>
         <a href="/">About</a>
@@ -23,7 +23,7 @@ const Header = () => {
             Register
           </a>
         </div>
-      </div>
+      </section>
       <div
         className={`hamburger__menu ${isOpen && "open"}`}
         onClick={() => setIsopen(!isOpen)}

@@ -2,14 +2,13 @@
     max-width: 90%;
     margin: auto;
     margin-top: 20px;
-    overflow: hidden;
+    padding: 20px 0;
 }
 
 .first__section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
 }
 
 .first__icon,
@@ -59,18 +58,6 @@
     max-width: 500px;
 }
 
-@media screen and (max-width:900px) {
-    .first__section {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .details__section {
-        flex-direction: column;
-    }
-}
-
 .details__section p {
     margin: 30px 0;
     color: gray;
@@ -81,4 +68,19 @@
     padding: 8px 15px;
     font-weight: 200;
     border-radius: 30px;
+}
+
+@media screen and (max-width:900px) {
+    .first__section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .third__icon {
+        margin-left: -16px;
+    }
+
+    .details__section {
+        flex-direction: column;
+    }
 }

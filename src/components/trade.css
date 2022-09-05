@@ -1,0 +1,21 @@
+.trade__container {
+    background-color: #f5f5f5;
+    color: black;
+    /* margin-top: 60px; */
+}
+
+.trade__container img {
+    width: 80px;
+}
+
+.trade__details {
+    display: flex;
+}
+
+.first__item,
+.second__item,
+.third__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

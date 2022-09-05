@@ -71,7 +71,7 @@ const About = () => {
           </div>
         </section>
         <section className="about__right">
-          {/* <h1>why you should choose CHAPPO</h1> */}
+          <h1>why you should choose CHAPPO</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
             laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
