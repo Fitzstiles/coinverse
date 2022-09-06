@@ -1,0 +1,119 @@
+.Featured___container {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Featured___container h1 {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 200;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.first__details,
+.second__details,
+.third__details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.text {
+    max-width: 400px;
+    margin-top: 40px;
+}
+
+.text h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.text p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: grey;
+}
+
+.text a {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.img {
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.start___mining {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3671E9;
+    align-items: center;
+    padding: 50px 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.mining__texts {
+    text-align: left;
+    max-width: 500px;
+}
+
+.mining__texts h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.mining__texts p {
+    font-size: 12px;
+}
+
+@media screen and (max-width:1130px) {
+    .Featured___container {
+        align-items: center;
+    }
+
+    .first__details,
+    .second__details,
+    .third__details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img {
+        margin-top: 30px;
+    }
+
+    .Featured___container h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .start___mining {
+        width: 80%;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    .Featured___container {
+        align-items: center;
+    }
+}

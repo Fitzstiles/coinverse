@@ -1,0 +1,94 @@
+footer {
+    max-width: 90%;
+    margin: auto;
+}
+
+.upper__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.upper__section a {
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.upper__section a:hover {
+    color: #2563eb;
+}
+
+.upper__section h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quicklinks,
+.resource__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.payments h2 {
+    margin-bottom: 20px;
+}
+
+.payments img {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.lower__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.lower__section svg {
+    font-size: 30px;
+    margin-right: 30px;
+    transition: .4s;
+}
+
+.lower__section svg:hover {
+    color: #2563eb;
+}
+
+@media screen and (max-width:1098px) {
+    footer {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .upper__section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 200px;
+        padding-bottom: 20px;
+    }
+
+    .quicklinks,
+    .resource__links {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .payments h2 {
+        font-size: 16px;
+    }
+
+    .lower__section {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
