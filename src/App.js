@@ -9,10 +9,6 @@ import "aos/dist/aos.css";
 import Footer from "./components/Footer";
 
 function App() {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <div className="App">
       <Header />

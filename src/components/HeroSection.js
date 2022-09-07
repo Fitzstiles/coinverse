@@ -1,13 +1,26 @@
 import "./heroSection.css";
+import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <main>
       <section className="left__section">
         <div className="small__texts">
-          <span>70% SAVE</span>
+          <motion.span
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 4 }}
+          >
+            70% SAVE
+          </motion.span>
           <p>For the best black friday deals</p>
         </div>
-        <h1>Fastest & Secure Platform To Invest In Crypto</h1>
+        <motion.h1
+          initial={{ translateY: 50 }}
+          animate={{ translateY: 0 }}
+          transition={{ duration: 2 }}
+        >
+          Fastest & Secure Platform To Invest In Crypto
+        </motion.h1>
         <p>
           buy and sell cyptocurrencies by trusted 10M wallets, in over 100m
           transactions
@@ -32,12 +45,17 @@ const HeroSection = () => {
         </div>
       </section>
       <section className="right__section">
-        <div className="image___container">
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 4 }}
+          className="image___container"
+        >
           <img
             src="https://cypto-currency.vercel.app/static/media/hero-img.bc2cc512f513aaa9f0bf.png"
             alt=""
           />
-        </div>
+        </motion.div>
       </section>
     </main>
   );

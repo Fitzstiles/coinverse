@@ -14,7 +14,7 @@ const Featured = () => {
               Aspernatur rem ducimus vitae maiores dolorum alias.
             </p>
             <a href="/" className="button">
-              Lern more
+              Learn more
             </a>
           </div>
           <div className="img">
@@ -38,7 +38,7 @@ const Featured = () => {
               deserunt commodi quos adipisci! Corporis, vero?
             </p>
             <a href="/" className="button">
-              Lern more
+              Learn more
             </a>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Featured = () => {
               odit distinctio dolore id incidunt?
             </p>
             <a href="/" className="button">
-              Lern more
+              Learn more
             </a>
           </div>
           <div className="img">
@@ -72,7 +72,7 @@ const Featured = () => {
         </div>
         <div className="input__section">
           <input type="text" placeholder="Enter message" />
-          <a href="/">subscribe</a>
+          <a href="/">Subscribe</a>
         </div>
       </div>
     </section>
