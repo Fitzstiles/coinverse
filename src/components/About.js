@@ -3,7 +3,11 @@ const About = () => {
   return (
     <section className="About_contaner">
       <section className="first__section">
-        <div className="first__icon">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="first__icon"
+        >
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -22,7 +26,11 @@ const About = () => {
             <p>Digital Currency Exchange</p>
           </div>
         </div>
-        <div className="second__icon">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="second__icon"
+        >
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -41,7 +49,11 @@ const About = () => {
             <p>Countries Around The World</p>
           </div>
         </div>
-        <div className="third__icon">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="third__icon"
+        >
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -63,14 +75,22 @@ const About = () => {
       </section>
       <section className="details__section">
         <section className="about__left">
-          <div className="about__image">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            className="about__image"
+          >
             <img
               src="https://cypto-currency.vercel.app/static/media/why-img.83f7e1610dd390441337.png"
               alt=""
             />
           </div>
         </section>
-        <section className="about__right">
+        <section
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="about__right"
+        >
           <h1>why you should choose CHAPPO</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,

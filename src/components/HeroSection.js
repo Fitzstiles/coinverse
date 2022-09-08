@@ -1,31 +1,26 @@
 import "./heroSection.css";
-import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <main>
       <section className="left__section">
         <div className="small__texts">
-          <motion.span
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 4 }}
-          >
+          <span data-aos="zoom-in" data-aos-duration="3000">
             70% SAVE
-          </motion.span>
+          </span>
           <p>For the best black friday deals</p>
         </div>
-        <motion.h1
-          initial={{ translateY: 50 }}
-          animate={{ translateY: 0 }}
-          transition={{ duration: 2 }}
-        >
+        <h1 data-aos="fade-up" data-aos-duration="3000">
           Fastest & Secure Platform To Invest In Crypto
-        </motion.h1>
-        <p>
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="3000">
           buy and sell cyptocurrencies by trusted 10M wallets, in over 100m
           transactions
         </p>
-        <div className="button__container button">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          className="button__container button"
+        >
           <button>Try For Free</button>
           <svg
             stroke="currentColor"
@@ -33,7 +28,6 @@ const HeroSection = () => {
             stroke-width="0"
             viewBox="0 0 24 24"
             class="bg-white py-1 rounded-full w-8 h-8 text-blue-500 px-2 aos-init aos-animate"
-            data-aos="fade-right"
             data-aos-offset="100"
             height="1em"
             width="1em"
@@ -45,17 +39,16 @@ const HeroSection = () => {
         </div>
       </section>
       <section className="right__section">
-        <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 4 }}
+        <div
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
           className="image___container"
         >
           <img
             src="https://cypto-currency.vercel.app/static/media/hero-img.bc2cc512f513aaa9f0bf.png"
             alt=""
           />
-        </motion.div>
+        </div>
       </section>
     </main>
   );

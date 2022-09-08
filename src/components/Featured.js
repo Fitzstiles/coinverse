@@ -2,7 +2,7 @@ import "./featured.css";
 const Featured = () => {
   return (
     <section className="Featured___container">
-      <h1>
+      <h1 data-aos="zoom-in" data-aos-duration="3000">
         Market Sentiments, Portfolio, And Run The Infrastructure Of Your Choice
       </h1>
       <div className="Featured__details">
@@ -13,11 +13,16 @@ const Featured = () => {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Aspernatur rem ducimus vitae maiores dolorum alias.
             </p>
-            <a href="/" className="button">
+            <a
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+              href="/"
+              className="button"
+            >
               Learn more
             </a>
           </div>
-          <div className="img">
+          <div data-aos="zoom-in" data-aos-duration="3000" className="img">
             <img
               src="https://cypto-currency.vercel.app/static/media/feature-1-img.3ebec6b2c18fd2e8cb8f.png"
               alt=""
@@ -27,6 +32,8 @@ const Featured = () => {
         <div className="second__details">
           <div className="img">
             <img
+              data-aos="zoom-in"
+              data-aos-duration="3000"
               src="https://cypto-currency.vercel.app/static/media/feature-2-img.cf233659a120d86cd676.png"
               alt=""
             />
@@ -37,7 +44,12 @@ const Featured = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               deserunt commodi quos adipisci! Corporis, vero?
             </p>
-            <a href="/" className="button">
+            <a
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              href="/"
+              className="button"
+            >
               Learn more
             </a>
           </div>
@@ -49,19 +61,30 @@ const Featured = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim
               odit distinctio dolore id incidunt?
             </p>
-            <a href="/" className="button">
+            <a
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+              href="/"
+              className="button"
+            >
               Learn more
             </a>
           </div>
           <div className="img">
             <img
+              data-aos="zoom-in"
+              data-aos-duration="3000"
               src="https://cypto-currency.vercel.app/static/media/feature-3-img.5df40cff033a1a81e9d1.png"
               alt=""
             />
           </div>
         </div>
       </div>
-      <div className="start___mining">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        className="start___mining"
+      >
         <div className="mining__texts">
           <h2>Start Mining Now</h2>
           <p>

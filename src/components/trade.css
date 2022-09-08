@@ -1,7 +1,6 @@
 .trade__container {
     background-color: #f5f5f5;
     color: black;
-    /* height: 100vh; */
     width: 100%;
     margin: auto;
     padding: 40px 0;
@@ -71,5 +70,11 @@
 @media screen and (max-width:775px) {
     .trade__details {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .trade__container h2 {
+        max-width: 370px;
     }
 }

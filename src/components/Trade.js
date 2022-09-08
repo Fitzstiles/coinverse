@@ -2,7 +2,9 @@ import "./trade.css";
 const Trade = () => {
   return (
     <section className="trade__container">
-      <h2>Trade Securely And Market The High Growth Cryptocurrencies.</h2>
+      <h2 data-aos="zoom-in" data-aos-duration="3000">
+        Trade Securely And Market The High Growth Cryptocurrencies.
+      </h2>
       <div className="trade__details">
         <div className="first__item">
           <img

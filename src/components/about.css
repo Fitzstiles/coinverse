@@ -1,7 +1,6 @@
 .About_contaner {
     max-width: 90%;
-    margin: auto;
-    margin-top: 20px;
+    margin: 80px auto;
     padding: 20px 0;
 }
 
@@ -9,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .first__icon,
