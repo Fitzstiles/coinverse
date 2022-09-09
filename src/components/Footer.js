@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="upper__section">
-        <div className="logo">
+        <div className="footer__logo">
           <img
             src="https://cypto-currency.vercel.app/static/media/logo.e44a93b92960b7a7a870e08a3080d60e.svg"
             alt=""

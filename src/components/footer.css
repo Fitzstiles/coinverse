@@ -1,16 +1,13 @@
 footer {
     max-width: 90%;
     margin: auto;
+    overflow: hidden;
 }
 
 .upper__section {
     display: flex;
     justify-content: space-between;
     margin: 40px 0;
-}
-
-.logo img {
-    width: 100%;
 }
 
 .upper__section a {
@@ -64,14 +61,21 @@ footer {
     }
 }
 
-@media screen and (max-width:810px) {
+@media screen and (max-width:900px) {
     .upper__section {
         flex-direction: column;
         align-items: center;
     }
 
-    .logo img {
+    .footer__logo {
         width: 200px;
+        height: 100px;
+    }
+
+    .footer__logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
         padding-bottom: 20px;
     }
 
@@ -79,9 +83,7 @@ footer {
     .resource__links {
         align-items: center;
     }
-}
 
-@media screen and (max-width:810px) {
     .payments h2 {
         font-size: 16px;
     }
