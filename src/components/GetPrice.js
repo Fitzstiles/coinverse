@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PriceTracker from "./PriceTracker";
 import axios from "axios";
+import "./pricetracker.css";
 
 const GetPrice = () => {
   const [coins, setcoins] = useState([]);
@@ -16,7 +17,8 @@ const GetPrice = () => {
   }, []);
   console.log(coins);
   return (
-    <div>
+    <div className="get__price">
+      <h1>View top cryptocurrency prices and market cap live </h1>
       {coins.map((coin) => (
         <PriceTracker key={coin.id} coin={coin} />
       ))}

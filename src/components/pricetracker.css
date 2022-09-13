@@ -1,6 +1,7 @@
 .coin__container {
     max-width: 80%;
     margin: auto;
+    overflow: hidden;
 }
 
 .coin__data {
@@ -38,6 +39,13 @@
     justify-content: flex-start;
 }
 
+.get__price h1 {
+    text-align: center;
+    margin: 60px 0;
+    font-weight: 400;
+}
+
+
 @media screen and (max-width:726px) {
     .coin__container {
         max-width: 90%;
@@ -66,6 +74,10 @@
     }
 
     .coin__data span {
+        font-size: 14px;
+    }
+
+    .get__price h1 {
         font-size: 14px;
     }
 }
