@@ -47,6 +47,8 @@
     .market__cap,
     .current__price {
         flex-direction: column;
+        gap: 10px;
+        justify-content: center;
     }
 
     .coin__nameandlogo {
@@ -57,5 +59,13 @@
 @media screen and (max-width:500px) {
     .coin__container {
         max-width: 95%;
+    }
+
+    .coin__data p {
+        font-size: 12px;
+    }
+
+    .coin__data span {
+        font-size: 14px;
     }
 }
