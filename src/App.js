@@ -7,8 +7,7 @@ import Featured from "./components/Featured";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer";
-import PriceTracker from "./components/PriceTracker";
-
+import GetPrice from "./components/GetPrice";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -18,7 +17,7 @@ function App() {
     <div className="App">
       <Header />
       <HeroSection />
-      {/* <PriceTracker /> */}
+      <GetPrice />
       <About />
       <Trade />
       <Featured />

@@ -1,24 +1,23 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-const PriceTracker = () => {
-  const [coins, setcoins] = useState();
-  useEffect(() => {
-    axios
-      .get(
-        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false"
-      )
-      .then((res) => {
-        console.log(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
-
+import "./pricetracker.css";
+const PriceTracker = ({ coin }) => {
+  console.log(coin.price);
   return (
     <div className="coin__container">
-      <div className="coin__row">
-        <div className="coin"></div>
+      <div className="coin__data">
+        <div className="coin__nameandlogo">
+          <div className="image">
+            <img src={coin.image} alt="" />
+          </div>
+          <p>{coin.name}</p>
+        </div>
+        <div className="current__price">
+          <p>current price:</p>
+          <span>${coin.current_price}</span>
+        </div>
+        <div className="market__cap">
+          <p>market cap:</p>
+          <span>{coin.market_cap}</span>
+        </div>
       </div>
     </div>
   );
