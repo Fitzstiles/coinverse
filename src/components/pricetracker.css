@@ -29,9 +29,6 @@
     display: flex;
     align-items: center;
     gap: 4px;
-}
-
-.coin__nameandlogo {
     width: 200px;
 }
 
@@ -65,10 +62,6 @@
 }
 
 @media screen and (max-width:500px) {
-    .coin__container {
-        max-width: 95%;
-    }
-
     .coin__data p {
         font-size: 12px;
     }
