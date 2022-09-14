@@ -59,8 +59,16 @@
     cursor: pointer;
 }
 
+.first__item button {
+    background-color: #3671E9;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
 .trade__details svg {
-    color: blue;
+    color: #3671E9;
     font-size: 20px;
     padding: 20px;
     border-radius: 30px;

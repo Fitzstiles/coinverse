@@ -90,11 +90,13 @@
     outline: none;
     margin-right: 10px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .input__section>input::placeholder {
     color: white;
-    font-style: Oxanium;
+    font-family: 'Oxanium';
+    font-size: 16px;
 }
 
 .input__section a {

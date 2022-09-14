@@ -17,7 +17,7 @@ const Trade = () => {
           <p>
             Digital currency in which a record of transactions is maintained.
           </p>
-          <button>start mining</button>
+          <button>Start mining</button>
         </div>
         <div className="second__item">
           <img
